@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Inter-Regular";
+    background-color: hsl(36, 100%, 99%);
+}
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.d-none{
+    display: none !important;
+}
+
+@media  (max-width:550px) {
+    body{
+        background-color: aquamarine;
+    }
+
+}
